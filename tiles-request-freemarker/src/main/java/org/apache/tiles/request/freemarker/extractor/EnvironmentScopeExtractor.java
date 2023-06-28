@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: EnvironmentScopeExtractor.java 1294456 2012-02-28 04:44:55Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import freemarker.template.utility.DeepUnwrap;
 /**
  * Extract attributes from {@link Environment} objects as a scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1294456 $ $Date: 2012-02-28 15:44:55 +1100 (Tue, 28 Feb 2012) $
  */
 public class EnvironmentScopeExtractor implements AttributeExtractor {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityRendererTest.java 1215008 2011-12-16 00:31:49Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,8 +27,8 @@ import static org.junit.Assert.*;
 import java.io.IOException;
 import java.io.Writer;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.render.CannotRenderException;
 import org.apache.tiles.request.render.Renderer;
@@ -41,7 +41,7 @@ import org.junit.Test;
 /**
  * Tests {@link VelocityRenderer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1215008 $ $Date: 2011-12-16 11:31:49 +1100 (Fri, 16 Dec 2011) $
  */
 public class VelocityRendererTest {
 

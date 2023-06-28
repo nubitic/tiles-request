@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ServletUtil.java 1375743 2012-08-21 20:05:58Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,8 +23,8 @@ package org.apache.tiles.request.servlet;
 
 import java.io.IOException;
 
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.ApplicationAccess;
@@ -34,7 +34,7 @@ import org.apache.tiles.request.Request;
 /**
  * Utilities for Tiles request servlet support.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1375743 $ $Date: 2012-08-22 06:05:58 +1000 (Wed, 22 Aug 2012) $
  */
 public final class ServletUtil {
 

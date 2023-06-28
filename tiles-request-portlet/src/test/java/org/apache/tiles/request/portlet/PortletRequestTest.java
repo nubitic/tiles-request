@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PortletRequestTest.java 1332134 2012-04-30 09:23:19Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -33,7 +33,7 @@ import javax.portlet.PortletContext;
 import javax.portlet.PortletException;
 import javax.portlet.PortletRequestDispatcher;
 import javax.portlet.PortletResponse;
-import javax.servlet.ServletOutputStream;
+import jakarta.servlet.ServletOutputStream;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.collection.HeaderValuesMap;
@@ -48,7 +48,7 @@ import org.junit.Test;
 /**
  * Tests {@link PortletRequest}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332134 $ $Date: 2012-04-30 19:23:19 +1000 (Mon, 30 Apr 2012) $
  */
 public class PortletRequestTest {
 

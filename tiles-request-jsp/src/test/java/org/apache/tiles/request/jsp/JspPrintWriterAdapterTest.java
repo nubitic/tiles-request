@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspPrintWriterAdapterTest.java 941871 2010-05-06 19:25:23Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,14 +24,14 @@ import static org.easymock.classextension.EasyMock.*;
 
 import java.io.IOException;
 
-import javax.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.JspWriter;
 
 import junit.framework.TestCase;
 
 /**
  * Tests {@link JspPrintWriterAdapter}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 941871 $ $Date: 2010-05-07 05:25:23 +1000 (Fri, 07 May 2010) $
  */
 public class JspPrintWriterAdapterTest extends TestCase {
 

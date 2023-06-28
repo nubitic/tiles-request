@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: WebappClassTemplateLoader.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles.request.freemarker.servlet;
 import java.io.IOException;
 import java.io.Reader;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import freemarker.cache.ClassTemplateLoader;
 import freemarker.cache.TemplateLoader;
@@ -35,7 +35,7 @@ import freemarker.cache.WebappTemplateLoader;
  * found, a {@link ClassTemplateLoader}. The resources are loaded from the
  * webapp root and from the classpath root.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class WebappClassTemplateLoader implements TemplateLoader {
 

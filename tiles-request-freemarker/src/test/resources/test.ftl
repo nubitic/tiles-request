@@ -1,6 +1,6 @@
 <#--
 /*
- * $Id$
+ * $Id: test.ftl 1001169 2010-09-25 09:17:56Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: Renderer.java 1215008 2011-12-16 00:31:49Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.Request;
  * An object that can render a path, depending on the request passed as a
  * parameter.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1215008 $ $Date: 2011-12-16 11:31:49 +1100 (Fri, 16 Dec 2011) $
  */
 public interface Renderer {
 

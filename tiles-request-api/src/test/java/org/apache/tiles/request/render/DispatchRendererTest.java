@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: DispatchRendererTest.java 1215006 2011-12-16 00:30:41Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Tests {@link DispatchRenderer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1215006 $ $Date: 2011-12-16 11:30:41 +1100 (Fri, 16 Dec 2011) $
  */
 public class DispatchRendererTest {
 

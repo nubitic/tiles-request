@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: package-info.java 1294457 2012-02-28 04:45:29Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,11 +36,11 @@
  * {@link org.apache.tiles.request.DispatchRequest} holds some features common
  * to servlets and portlets that are unlikely to be found outside of a JavaEE
  * web environment.
- * <li>{@link org.apache.tiles.ApplicationContext} can be used to access
+ * <li><code>org.apache.tiles.ApplicationContext</code> can be used to access
  * application-wide configuration and resources (typically the files containing
  * the templates).
  * <li>{@link org.apache.tiles.request.render.Renderer} is the interface supported
  * by the engine in charge of rendering the template.
- * <ul>
+ * </ul>
  */
 package org.apache.tiles.request;

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: Request.java 1375743 2012-08-21 20:05:58Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import org.apache.tiles.request.attribute.Addable;
 /**
  * Encapsulation of request information.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1375743 $ $Date: 2012-08-22 06:05:58 +1000 (Wed, 22 Aug 2012) $
  */
 public interface Request {
 
@@ -151,7 +151,7 @@ public interface Request {
      *
      * @return The current request locale. It is the locale of the request
      * object itself and it is NOT the locale that the user wants to use. See
-     * {@link org.apache.tiles.locale.LocaleResolver} to implement strategies to
+     * <code>org.apache.tiles.locale.LocaleResolver</code> to implement strategies to
      * resolve locales.
      */
     Locale getRequestLocale();

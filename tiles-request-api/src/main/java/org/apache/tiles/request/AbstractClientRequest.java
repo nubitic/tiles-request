@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractClientRequest.java 1332134 2012-04-30 09:23:19Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import java.util.Map;
  * Base class for "client" requests, i.e. requests that come unchanged by the
  * container, such as ServletRequest and PortletRequest.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332134 $ $Date: 2012-04-30 19:23:19 +1000 (Mon, 30 Apr 2012) $
  */
 public abstract class AbstractClientRequest extends AbstractRequest {
 

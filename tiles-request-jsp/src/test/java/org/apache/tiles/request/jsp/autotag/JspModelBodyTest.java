@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspModelBodyTest.java 1305546 2012-03-26 20:34:37Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,10 +25,10 @@ import static org.easymock.EasyMock.*;
 import java.io.IOException;
 import java.io.Writer;
 
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.JspWriter;
-import javax.servlet.jsp.PageContext;
-import javax.servlet.jsp.tagext.JspFragment;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.PageContext;
+import jakarta.servlet.jsp.tagext.JspFragment;
 
 import org.apache.tiles.request.jsp.autotag.JspModelBody;
 import org.junit.Test;
@@ -36,7 +36,7 @@ import org.junit.Test;
 /**
  * Tests {@link JspModelBody}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1305546 $ $Date: 2012-03-27 07:34:37 +1100 (Tue, 27 Mar 2012) $
  */
 public class JspModelBodyTest {
 

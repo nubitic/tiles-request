@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SessionScopeExtractorTest.java 1199216 2011-11-08 12:25:24Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,8 +26,8 @@ import static org.junit.Assert.*;
 
 import java.util.Enumeration;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link SessionScopeExtractor}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1199216 $ $Date: 2011-11-08 23:25:24 +1100 (Tue, 08 Nov 2011) $
  */
 public class SessionScopeExtractorTest {
 

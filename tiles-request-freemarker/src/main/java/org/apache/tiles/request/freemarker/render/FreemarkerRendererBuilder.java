@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRendererBuilder.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,7 +23,7 @@ package org.apache.tiles.request.freemarker.render;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletException;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.freemarker.FreemarkerRequestException;
@@ -31,7 +31,7 @@ import org.apache.tiles.request.freemarker.FreemarkerRequestException;
 /**
  * Builds instances of {@link FreemarkerRenderer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public final class FreemarkerRendererBuilder {
 

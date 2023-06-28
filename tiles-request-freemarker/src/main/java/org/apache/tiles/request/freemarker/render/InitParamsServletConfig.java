@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: InitParamsServletConfig.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,16 +25,15 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationContext;
 
 /**
- * Implements {@link ServletConfig} to initialize the internal servlet using parameters
- * set through {@link FreemarkerRenderer#setParameter(String, String)}.
+ * Implements {@link ServletConfig} to initialize the internal servlet.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class InitParamsServletConfig implements ServletConfig {
 

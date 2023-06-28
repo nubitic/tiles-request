@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: HasAddableKeys.java 1215004 2011-12-16 00:29:25Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,7 +23,7 @@ package org.apache.tiles.request.attribute;
 /**
  * Allows to get and set attributes.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1215004 $ $Date: 2011-12-16 11:29:25 +1100 (Fri, 16 Dec 2011) $
  * @param <V> The type of the value of the attribute.
  */
 public interface HasAddableKeys<V> extends HasKeys<V>, Addable<V> {

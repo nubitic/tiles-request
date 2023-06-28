@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRequestExceptionTest.java 1066788 2011-02-03 11:49:11Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.junit.Test;
 /**
  * Tests {@link FreemarkerRequestException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066788 $ $Date: 2011-02-03 22:49:11 +1100 (Thu, 03 Feb 2011) $
  */
 public class FreemarkerRequestExceptionTest {
 

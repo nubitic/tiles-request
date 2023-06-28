@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRendererTest.java 1066788 2011-02-03 11:49:11Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,12 +29,12 @@ import java.io.PrintWriter;
 import java.io.StringWriter;
 import java.net.URL;
 
-import javax.servlet.GenericServlet;
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.GenericServlet;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.render.CannotRenderException;
@@ -51,7 +51,7 @@ import freemarker.template.ObjectWrapper;
 /**
  * Tests {@link FreemarkerRenderer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066788 $ $Date: 2011-02-03 22:49:11 +1100 (Thu, 03 Feb 2011) $
  */
 public class FreemarkerRendererTest {
 

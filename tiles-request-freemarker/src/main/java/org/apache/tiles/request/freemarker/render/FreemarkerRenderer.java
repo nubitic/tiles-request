@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRenderer.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,9 +23,9 @@ package org.apache.tiles.request.freemarker.render;
 
 import java.io.IOException;
 
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.Request;
 import org.apache.tiles.request.freemarker.FreemarkerRequestException;
@@ -38,10 +38,8 @@ import org.apache.tiles.request.servlet.ServletRequest;
  * FreeMarker renderer for rendering FreeMarker templates as Tiles attributes.
  * It is only usable under a Servlet environment, because it uses
  * {@link AttributeValueFreemarkerServlet} internally to forward the request.<br/>
- * To initialize it correctly, call {@link #setParameter(String, String)} for all the
- * parameters that you want to set, and then call {@link #commit()}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class FreemarkerRenderer implements Renderer {
 

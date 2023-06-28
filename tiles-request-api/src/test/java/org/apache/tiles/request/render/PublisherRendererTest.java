@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: PublisherRendererTest.java 1360343 2012-07-11 18:35:52Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * Tests {@link PublisherRenderer}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1360343 $ $Date: 2012-07-12 04:35:52 +1000 (Thu, 12 Jul 2012) $
  */
 public class PublisherRendererTest {
 

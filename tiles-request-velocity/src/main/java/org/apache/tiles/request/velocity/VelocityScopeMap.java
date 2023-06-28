@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityScopeMap.java 942431 2010-05-08 18:05:19Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -31,7 +31,7 @@ import org.apache.velocity.context.Context;
  * <p>Private implementation of <code>Map</code> for servlet request
  * attributes.</p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 942431 $ $Date: 2010-05-09 04:05:19 +1000 (Sun, 09 May 2010) $
  */
 
 final class VelocityScopeMap extends ScopeMap {
@@ -53,7 +53,7 @@ final class VelocityScopeMap extends ScopeMap {
 
     @Override
     public Object remove(Object key) {
-        return request.remove(key);
+        return request.remove(key.toString());
     }
 
     @Override
@@ -63,7 +63,7 @@ final class VelocityScopeMap extends ScopeMap {
 
     /** {@inheritDoc} */
     public boolean containsKey(Object key) {
-        return request.containsKey(key);
+        return request.containsKey(key.toString());
     }
 
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRequestUtilTest.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,9 +28,9 @@ import java.io.StringWriter;
 import java.util.HashMap;
 import java.util.Locale;
 
-import javax.servlet.GenericServlet;
-import javax.servlet.ServletContext;
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.GenericServlet;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.apache.tiles.request.ApplicationAccess;
 import org.apache.tiles.request.ApplicationContext;

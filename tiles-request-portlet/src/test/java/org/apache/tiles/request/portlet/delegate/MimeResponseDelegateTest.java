@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: MimeResponseDelegateTest.java 1066849 2011-02-03 16:12:39Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link MimeResponseDelegate}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066849 $ $Date: 2011-02-04 03:12:39 +1100 (Fri, 04 Feb 2011) $
  */
 public class MimeResponseDelegateTest {
 

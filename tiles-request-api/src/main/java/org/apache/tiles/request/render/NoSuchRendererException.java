@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NoSuchRendererException.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -24,7 +24,7 @@ package org.apache.tiles.request.render;
 /**
  * It is raised when a named renderer has not been found with that name.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class NoSuchRendererException extends RenderException {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspPrintWriterAdapter.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,7 +23,7 @@ package org.apache.tiles.request.jsp;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-import javax.servlet.jsp.JspWriter;
+import jakarta.servlet.jsp.JspWriter;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -31,7 +31,7 @@ import org.slf4j.LoggerFactory;
 /**
  * Adapts a {@link JspWriter} to a {@link PrintWriter}, swallowing {@link IOException}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class JspPrintWriterAdapter extends PrintWriter {
 

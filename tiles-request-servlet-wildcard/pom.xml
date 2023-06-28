@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!--
 /*
- * $Id$
+ * $Id: pom.xml 1807201 2017-09-04 09:33:48Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@
   <parent>
     <groupId>org.apache.tiles</groupId>
     <artifactId>tiles-request</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.7-nubitic-jakarta-api</version>
   </parent>
 
   <modelVersion>4.0.0</modelVersion>
@@ -81,8 +81,8 @@
       <artifactId>spring-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>javax.servlet</groupId>
-      <artifactId>servlet-api</artifactId>
+      <groupId>jakarta.servlet</groupId>
+      <artifactId>jakarta.servlet-api</artifactId>
       <scope>provided</scope>
     </dependency>
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SessionScopeExtractor.java 1199216 2011-11-08 12:25:24Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,15 +23,15 @@ package org.apache.tiles.request.servlet.extractor;
 import java.util.Enumeration;
 import java.util.Collections;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpSession;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpSession;
 
 import org.apache.tiles.request.attribute.AttributeExtractor;
 
 /**
  * Extract attributes from session scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1199216 $ $Date: 2011-11-08 23:25:24 +1100 (Tue, 08 Nov 2011) $
  */
 public class SessionScopeExtractor implements AttributeExtractor {
 

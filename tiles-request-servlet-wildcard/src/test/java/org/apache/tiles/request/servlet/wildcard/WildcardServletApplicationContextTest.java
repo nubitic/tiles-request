@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: WildcardServletApplicationContextTest.java 1484502 2013-05-20 15:39:44Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,13 +34,13 @@ import java.util.Set;
 import java.util.Vector;
 import java.util.HashSet;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 
 /**
  * Tests {@link WildcardServletApplicationContext}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1484502 $ $Date: 2013-05-21 01:39:44 +1000 (Tue, 21 May 2013) $
  */
 public class WildcardServletApplicationContextTest extends TestCase {
 

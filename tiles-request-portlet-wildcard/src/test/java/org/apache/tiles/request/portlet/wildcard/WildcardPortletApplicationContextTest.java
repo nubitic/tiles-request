@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: WildcardPortletApplicationContextTest.java 1484508 2013-05-20 15:58:07Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -40,7 +40,7 @@ import org.easymock.EasyMock;
 /**
  * Tests {@link WildcardPortletApplicationContext}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1484508 $ $Date: 2013-05-21 01:58:07 +1000 (Tue, 21 May 2013) $
  */
 public class WildcardPortletApplicationContextTest extends TestCase {
 

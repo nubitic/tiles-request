@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AttributeValueFreemarkerServlet.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -20,7 +20,7 @@
  */
 package org.apache.tiles.request.freemarker.render;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.apache.tiles.request.freemarker.servlet.SharedVariableLoaderFreemarkerServlet;
 

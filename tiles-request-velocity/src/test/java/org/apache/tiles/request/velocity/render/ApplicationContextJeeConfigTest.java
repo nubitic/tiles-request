@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ApplicationContextJeeConfigTest.java 1066512 2011-02-02 16:13:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.servlet.ServletApplicationContext;
 import org.junit.After;
@@ -37,7 +37,7 @@ import org.junit.Test;
 /**
  * Tests {@link ApplicationContextJeeConfig}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066512 $ $Date: 2011-02-03 03:13:31 +1100 (Thu, 03 Feb 2011) $
  */
 public class ApplicationContextJeeConfigTest {
 

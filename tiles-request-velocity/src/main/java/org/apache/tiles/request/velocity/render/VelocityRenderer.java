@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityRenderer.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -36,10 +36,8 @@ import org.apache.velocity.tools.view.VelocityView;
  * Attribute renderer for rendering Velocity templates as attributes. <br>
  * It is available only to Servlet-based environment.<br>
  * It uses {@link VelocityView} to render the response.<br>
- * To initialize it correctly, call {@link #setParameter(String, String)} for
- * all the parameters that you want to set, and then call {@link #commit()}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class VelocityRenderer implements Renderer {
 

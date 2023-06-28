@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: NotAvailableFeatureException.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@ package org.apache.tiles.request;
  * Exception that indicates that a feature could not be used since it is not
  * available.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class NotAvailableFeatureException extends RequestException {
 

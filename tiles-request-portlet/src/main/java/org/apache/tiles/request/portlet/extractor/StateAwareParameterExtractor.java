@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: StateAwareParameterExtractor.java 1066849 2011-02-03 16:12:39Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.tiles.request.attribute.HasAddableKeys;
 /**
  * Extracts parameters from a request and allows putting render parameters in a state aware response.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066849 $ $Date: 2011-02-04 03:12:39 +1100 (Fri, 04 Feb 2011) $
  */
 public class StateAwareParameterExtractor extends ParameterExtractor implements HasAddableKeys<String> {
 

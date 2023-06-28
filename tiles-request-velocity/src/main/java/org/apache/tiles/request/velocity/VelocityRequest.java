@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityRequest.java 1332186 2012-04-30 13:20:15Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,10 +29,10 @@ import java.util.Collections;
 import java.util.List;
 import java.util.Map;
 
-import javax.servlet.RequestDispatcher;
-import javax.servlet.ServletException;
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.RequestDispatcher;
+import jakarta.servlet.ServletException;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.AbstractViewRequest;
 import org.apache.tiles.request.ApplicationContext;
@@ -45,7 +45,7 @@ import org.apache.velocity.context.Context;
 /**
  * The implementation of the Tiles request context specific for Velocity.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1332186 $ $Date: 2012-04-30 23:20:15 +1000 (Mon, 30 Apr 2012) $
  */
 public class VelocityRequest extends AbstractViewRequest {
 

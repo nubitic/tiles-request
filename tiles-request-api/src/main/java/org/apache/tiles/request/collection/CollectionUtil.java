@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: CollectionUtil.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

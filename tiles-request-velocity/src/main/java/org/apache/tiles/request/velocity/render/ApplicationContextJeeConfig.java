@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ApplicationContextJeeConfig.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,17 +25,16 @@ import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.Map;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.servlet.ServletUtil;
 import org.apache.velocity.tools.view.JeeConfig;
 
 /**
- * Implements JeeConfig to use parameters set through
- * {@link VelocityRenderer#setParameter(String, String)}.
+ * Implements JeeConfig.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class ApplicationContextJeeConfig implements JeeConfig {
 

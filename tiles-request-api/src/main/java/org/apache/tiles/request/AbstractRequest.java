@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractRequest.java 1375743 2012-08-21 20:05:58Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,7 +23,7 @@ package org.apache.tiles.request;
 /**
  * Base request.
  *
- * @version $Rev$ $Date: 2010-11-14 21:32:50 +0100 (dom, 14 nov 2010)$
+ * @version $Rev: 1375743 $ $Date: 2010-11-14 21:32:50 +0100 (dom, 14 nov 2010)$
  */
 public abstract class AbstractRequest implements DispatchRequest {
 

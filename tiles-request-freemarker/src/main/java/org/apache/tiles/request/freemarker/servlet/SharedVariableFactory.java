@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SharedVariableFactory.java 1066788 2011-02-03 11:49:11Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@ import freemarker.template.TemplateModel;
 /**
  * It is an object that can create a shared variable, as a template model.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066788 $ $Date: 2011-02-03 22:49:11 +1100 (Thu, 03 Feb 2011) $
  */
 public interface SharedVariableFactory {
 

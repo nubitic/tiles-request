@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityScopeExtractor.java 1066512 2011-02-02 16:13:31Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import org.apache.velocity.context.Context;
 /**
  * Extracts attributes from Velocity context..
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066512 $ $Date: 2011-02-03 03:13:31 +1100 (Thu, 03 Feb 2011) $
  */
 public class VelocityScopeExtractor implements AttributeExtractor {
 

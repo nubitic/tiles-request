@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: SharedVariableLoaderFreemarkerServlet.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,9 +25,9 @@ import java.util.Enumeration;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
-import javax.servlet.ServletConfig;
-import javax.servlet.ServletContext;
-import javax.servlet.ServletException;
+import jakarta.servlet.ServletConfig;
+import jakarta.servlet.ServletContext;
+import jakarta.servlet.ServletException;
 
 import org.apache.tiles.request.reflect.ClassUtil;
 
@@ -38,7 +38,7 @@ import freemarker.template.Configuration;
 /**
  * Extends FreemarkerServlet to load Tiles directives as a shared variable.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class SharedVariableLoaderFreemarkerServlet extends FreemarkerServlet {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspModelBody.java 1305546 2012-03-26 20:34:37Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,16 +23,16 @@ package org.apache.tiles.request.jsp.autotag;
 import java.io.IOException;
 import java.io.Writer;
 
-import javax.servlet.jsp.JspContext;
-import javax.servlet.jsp.JspException;
-import javax.servlet.jsp.tagext.JspFragment;
+import jakarta.servlet.jsp.JspContext;
+import jakarta.servlet.jsp.JspException;
+import jakarta.servlet.jsp.tagext.JspFragment;
 
 import org.apache.tiles.autotag.core.runtime.AbstractModelBody;
 
 /**
  * The body abstraction in a JSP tag.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1305546 $ $Date: 2012-03-27 07:34:37 +1100 (Tue, 27 Mar 2012) $
  */
 public class JspModelBody extends AbstractModelBody {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: RequestScopeExtractorTest.java 1066499 2011-02-02 15:33:34Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -26,7 +26,7 @@ import static org.junit.Assert.*;
 
 import java.util.Enumeration;
 
-import javax.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletRequest;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * Tests {@link RequestScopeExtractor}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066499 $ $Date: 2011-02-03 02:33:34 +1100 (Thu, 03 Feb 2011) $
  */
 public class RequestScopeExtractorTest {
 

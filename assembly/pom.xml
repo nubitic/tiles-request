@@ -20,7 +20,6 @@
 
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>org.apache.tiles</groupId>
   <artifactId>tiles-request-assembly</artifactId>
   <packaging>pom</packaging>
   <name>Tiles Request Assembly</name>
@@ -30,7 +29,7 @@
   <parent>
     <groupId>org.apache.tiles</groupId>
     <artifactId>tiles-request</artifactId>
-    <version>1.0.7</version>
+    <version>1.0.7-nubitic-jakarta-api</version>
   </parent>
 
   <build>
@@ -121,26 +120,6 @@
               </execution>
             </executions>
           </plugin>
-          <plugin>
-            <groupId>org.codehaus.mojo</groupId>
-            <artifactId>wagon-maven-plugin</artifactId>
-            <version>1.0-beta-4</version>
-            <executions>
-              <execution>
-                <phase>deploy</phase>
-                <goals>
-                  <goal>upload</goal>
-                </goals>
-                <configuration>
-                  <fromDir>${project.build.directory}/assemblies</fromDir>
-                  <includes>**</includes>
-                  <toDir>${project.version}</toDir>
-                  <serverId>tiles.build</serverId>
-                  <url>scp://people.apache.org/www/people.apache.org/builds/tiles/request</url>
-                </configuration>
-              </execution>
-            </executions>
-          </plugin>
         </plugins>
       </build>
     </profile>
@@ -151,7 +130,6 @@
     <dependency>
       <groupId>org.apache.tiles</groupId>
       <artifactId>tiles-request-api</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -175,7 +153,6 @@
     <dependency>
       <groupId>org.apache.tiles</groupId>
       <artifactId>tiles-request-portlet</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>
@@ -187,7 +164,6 @@
     <dependency>
       <groupId>org.apache.tiles</groupId>
       <artifactId>tiles-request-servlet</artifactId>
-      <version>${project.version}</version>
     </dependency>
 
     <dependency>

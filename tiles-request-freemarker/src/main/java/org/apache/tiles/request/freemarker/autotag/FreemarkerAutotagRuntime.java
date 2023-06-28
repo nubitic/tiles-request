@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerAutotagRuntime.java 1360343 2012-07-11 18:35:52Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

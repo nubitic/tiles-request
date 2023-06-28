@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ApplicationContextWrapperTest.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

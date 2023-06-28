@@ -24,11 +24,9 @@ under the License.
   <parent>
     <artifactId>tiles-request</artifactId>
     <groupId>org.apache.tiles</groupId>
-    <version>1.0.7</version>
+    <version>1.0.7-nubitic-jakarta-api</version>
   </parent>
-  <groupId>org.apache.tiles</groupId>
   <artifactId>tiles-request-freemarker</artifactId>
-  <version>1.0.7</version>
   <name>Tiles Request - Freemarker support</name>
   <description>Freemarker implementation of the Tiles request framework</description>
   <dependencies>
@@ -45,8 +43,8 @@ under the License.
   		<artifactId>tiles-request-servlet</artifactId>
   	</dependency>
   	<dependency>
-  		<groupId>javax.servlet</groupId>
-  		<artifactId>servlet-api</artifactId>
+  		<groupId>jakarta.servlet</groupId>
+  		<artifactId>jakarta.servlet-api</artifactId>
   		<scope>provided</scope>
   	</dependency>
     <dependency>

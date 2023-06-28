@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ScopeExtractor.java 1066790 2011-02-03 12:06:20Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -22,14 +22,14 @@ package org.apache.tiles.request.jsp.extractor;
 
 import java.util.Enumeration;
 
-import javax.servlet.jsp.JspContext;
+import jakarta.servlet.jsp.JspContext;
 
 import org.apache.tiles.request.attribute.AttributeExtractor;
 
 /**
  * Extracts attributes from a numbered scope from {@link JspContext}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066790 $ $Date: 2011-02-03 23:06:20 +1100 (Thu, 03 Feb 2011) $
  */
 public class ScopeExtractor implements AttributeExtractor {
 

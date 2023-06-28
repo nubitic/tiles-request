@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: VelocityModelBodyTest.java 1305546 2012-03-26 20:34:37Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Tests {@link VelocityModelBody}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1305546 $ $Date: 2012-03-27 07:34:37 +1100 (Tue, 27 Mar 2012) $
  */
 public class VelocityModelBodyTest {
 

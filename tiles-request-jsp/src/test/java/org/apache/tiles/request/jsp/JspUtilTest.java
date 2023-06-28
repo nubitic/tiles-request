@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: JspUtilTest.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,8 +23,8 @@ package org.apache.tiles.request.jsp;
 import static org.easymock.classextension.EasyMock.*;
 import static org.junit.Assert.*;
 
-import javax.servlet.jsp.JspContext;
-import javax.servlet.jsp.PageContext;
+import jakarta.servlet.jsp.JspContext;
+import jakarta.servlet.jsp.PageContext;
 
 import org.apache.tiles.request.ApplicationAccess;
 import org.apache.tiles.request.ApplicationContext;
@@ -33,7 +33,7 @@ import org.junit.Test;
 /**
  * Tests {@link JspUtil}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1229087 $ $Date: 2012-01-09 21:35:14 +1100 (Mon, 09 Jan 2012) $
  */
 public class JspUtilTest {
 

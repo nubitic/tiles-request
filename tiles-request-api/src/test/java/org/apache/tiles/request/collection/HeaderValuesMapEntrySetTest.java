@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: HeaderValuesMapEntrySetTest.java 1066446 2011-02-02 12:38:04Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file

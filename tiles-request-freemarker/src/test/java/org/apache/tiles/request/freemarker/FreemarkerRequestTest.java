@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: FreemarkerRequestTest.java 1375743 2012-08-21 20:05:58Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -32,8 +32,8 @@ import java.util.HashMap;
 import java.util.Locale;
 import java.util.Map;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
+import jakarta.servlet.http.HttpServletRequest;
+import jakarta.servlet.http.HttpServletResponse;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.Request;
@@ -52,7 +52,7 @@ import freemarker.template.TemplateModelException;
 /**
  * Tests {@link FreemarkerRequest}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1375743 $ $Date: 2012-08-22 06:05:58 +1000 (Wed, 22 Aug 2012) $
  */
 public class FreemarkerRequestTest {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ServletApplicationContext.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import java.util.Collection;
 import java.util.Locale;
 import java.util.Map;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationContext;
 import org.apache.tiles.request.ApplicationResource;
@@ -40,7 +40,7 @@ import org.apache.tiles.request.servlet.extractor.InitParameterExtractor;
 /**
  * Servlet-based implementation of the TilesApplicationContext interface.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  */
 public class ServletApplicationContext implements ApplicationContext {
 

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ApplicationScopeExtractor.java 1066499 2011-02-02 15:33:34Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -22,14 +22,14 @@ package org.apache.tiles.request.servlet.extractor;
 
 import java.util.Enumeration;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.attribute.AttributeExtractor;
 
 /**
  * Extract attributes from application scope.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066499 $ $Date: 2011-02-03 02:33:34 +1100 (Thu, 03 Feb 2011) $
  */
 public class ApplicationScopeExtractor implements AttributeExtractor {
 

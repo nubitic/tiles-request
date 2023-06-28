@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: RendererFactory.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -25,7 +25,7 @@ package org.apache.tiles.request.render;
 /**
  * <p>
  * Factory interface used to create/retrieve instances of the
- * {@link AttributeRenderer} interface.
+ * {@link Renderer} interface.
  * </p>
  *
  * <p>
@@ -34,7 +34,7 @@ package org.apache.tiles.request.render;
  * the AttributeRenderer (for instance) may provide a custom renderer.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public interface RendererFactory {
 

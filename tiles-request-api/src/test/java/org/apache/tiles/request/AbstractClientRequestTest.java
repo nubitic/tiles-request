@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractClientRequestTest.java 1375743 2012-08-21 20:05:58Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -34,7 +34,7 @@ import org.junit.Test;
 /**
  * Tests {@link AbstractClientRequest}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1375743 $ $Date: 2012-08-22 06:05:58 +1000 (Wed, 22 Aug 2012) $
  */
 public class AbstractClientRequestTest {
 

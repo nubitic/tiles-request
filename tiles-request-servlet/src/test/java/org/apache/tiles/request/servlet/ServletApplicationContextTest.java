@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ServletApplicationContextTest.java 1297705 2012-03-06 20:44:30Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -29,7 +29,7 @@ import java.net.URL;
 import java.util.Collection;
 import java.util.Locale;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationResource;
 import org.apache.tiles.request.collection.ReadOnlyEnumerationMap;
@@ -40,7 +40,7 @@ import org.junit.Test;
 /**
  * Tests {@link ServletApplicationContext}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1297705 $ $Date: 2012-03-07 07:44:30 +1100 (Wed, 07 Mar 2012) $
  */
 public class ServletApplicationContextTest {
 

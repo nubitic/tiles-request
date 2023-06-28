@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: MapEntry.java 1049711 2010-12-15 21:12:00Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import java.util.Map;
  * <p>Map.Entry implementation that can be constructed to either be read-only
  * or not.</p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1049711 $ $Date: 2010-12-16 08:12:00 +1100 (Thu, 16 Dec 2010) $
  * @param <K> The key type.
  * @param <V> The value type.
  */

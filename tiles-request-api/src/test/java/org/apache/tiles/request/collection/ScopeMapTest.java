@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: ScopeMapTest.java 1066446 2011-02-02 12:38:04Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -35,7 +35,7 @@ import org.junit.Test;
 /**
  * Tests {@link ScopeMap}.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1066446 $ $Date: 2011-02-02 23:38:04 +1100 (Wed, 02 Feb 2011) $
  */
 public class ScopeMapTest {
 

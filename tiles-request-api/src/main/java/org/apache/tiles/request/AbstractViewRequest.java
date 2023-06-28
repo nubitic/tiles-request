@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: AbstractViewRequest.java 1229087 2012-01-09 10:35:14Z mck $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import java.io.IOException;
  * such as JSP, Velocity and Freemarker. In particular, all calls to
  * {@link #dispatch(String)} will cause an inclusion and never a forward.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1229087 $ $Date: 2012-01-09 21:35:14 +1100 (Mon, 09 Jan 2012) $
  */
 public class AbstractViewRequest extends DispatchRequestWrapper {
 

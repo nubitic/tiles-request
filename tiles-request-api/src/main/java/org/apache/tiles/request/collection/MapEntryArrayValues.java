@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: MapEntryArrayValues.java 1064782 2011-01-28 17:08:52Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -27,7 +27,7 @@ import java.util.Map;
 /**
  * Multi-valued map entry.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1064782 $ $Date: 2011-01-29 04:08:52 +1100 (Sat, 29 Jan 2011) $
  * @param <K> The key type.
  * @param <V> The value type.
  */

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: EnvironmentScopeMap.java 942404 2010-05-08 15:36:51Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -33,7 +33,7 @@ import freemarker.template.TemplateModelException;
  * Private implementation of <code>Map</code> for servlet request attributes.
  * </p>
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 942404 $ $Date: 2010-05-09 01:36:51 +1000 (Sun, 09 May 2010) $
  */
 
 final class EnvironmentScopeMap extends ScopeMap {

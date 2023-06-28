@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: HasRemovableKeys.java 1064782 2011-01-28 17:08:52Z apetrelli $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -23,7 +23,7 @@ package org.apache.tiles.request.attribute;
 /**
  * Allows to get and remove attributes.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1064782 $ $Date: 2011-01-29 04:08:52 +1100 (Sat, 29 Jan 2011) $
  * @param <V> The type of the value of the attribute.
  */
 public interface HasRemovableKeys<V> extends HasKeys<V> {

@@ -1,5 +1,5 @@
 /*
- * $Id$
+ * $Id: WildcardServletApplicationContext.java 1306435 2012-03-28 15:39:11Z nlebas $
  *
  * Licensed to the Apache Software Foundation (ASF) under one
  * or more contributor license agreements.  See the NOTICE file
@@ -28,7 +28,7 @@ import java.util.Collection;
 import java.util.Collections;
 import java.util.Locale;
 
-import javax.servlet.ServletContext;
+import jakarta.servlet.ServletContext;
 
 import org.apache.tiles.request.ApplicationResource;
 import org.apache.tiles.request.locale.URLApplicationResource;
@@ -41,7 +41,7 @@ import org.springframework.web.context.support.ServletContextResourcePatternReso
  * Servlet-based implementation of the TilesApplicationContext interface that
  * can resolve resources even using wildcards.
  *
- * @version $Rev$ $Date$
+ * @version $Rev: 1306435 $ $Date: 2012-03-29 02:39:11 +1100 (Thu, 29 Mar 2012) $
  */
 public class WildcardServletApplicationContext extends ServletApplicationContext {
 
